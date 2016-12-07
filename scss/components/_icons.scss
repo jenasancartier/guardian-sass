@@ -1,0 +1,23 @@
+.user, .search, .more {
+  img {
+    width: auto;
+    height: 35px;
+    border: 1px solid transparentize($accent, 0.6);
+    border-radius: 50%;
+    padding: 5px;
+    float: left;
+    margin-right: 10px;
+  }
+}
+
+.home img {
+  height: 18px;
+  width: auto;
+}
+
+svg {
+  float: right;
+  width: 160px;
+  height: 30px;
+  margin-right: 10px;
+}
