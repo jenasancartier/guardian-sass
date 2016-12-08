@@ -1,0 +1,13 @@
+.headlines {
+  .row {
+    @include span-columns(12 of 12);
+    background-image: url(../img/article1.jpg);
+    background-position: top;;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: $gray;
+    border-top: 1px solid $accent;
+    // background-img();
+    height: 430px;
+  }
+}

@@ -1,3 +1,42 @@
 .header {
   background: $prim-blue;
 }
+
+.top, .middle {
+  @include clearfix;
+  display: inline-block;
+  height: 3.5vh;
+}
+
+.top {
+  padding: 5px 10px;
+}
+
+.middle {
+  float: right;
+  margin-top: 2px;
+}
+
+.bottom {
+  clear: both;
+  background: $sec-blue;
+  height: 2.75vh;
+  padding: 0.5em;
+}
+
+.hamburger {
+  color: $white;
+  float: right;
+  background: $font-color;
+  padding: 0 10px;
+}
+
+
+li {
+  display: none;
+  // -webkit-font-smoothing: antialiased;
+  // float: left;
+  // list-style: none;
+  // color: $white;
+  // margin: 0 10px;
+}
