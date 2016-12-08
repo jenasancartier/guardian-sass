@@ -4,9 +4,16 @@
 }
 
 .headlines {
-  margin: 3px 15px;
+  margin: 3px 20px;
   h3 {
     color: $prim-blue;
     font-weight: 700;
   }
 }
+
+.hamburger {
+    color: $white;
+    float: right;
+    background: $font-color;
+    padding: 0 10px;
+  }

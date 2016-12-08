@@ -1,6 +1,7 @@
 .headlines {
   .row {
     @include span-columns(12 of 12);
+    margin-top: 12px;
     background-image: url(../img/article1.jpg);
     background-position: top;;
     background-size: 100%;

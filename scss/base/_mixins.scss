@@ -2,7 +2,7 @@
   @font-face {
       font-family: $family;
       src:  url('#{$path-font}/#{$file}-Regular.ttf') format('truetype');
-      font-weight: normal;
+      font-weight: 400;
   }
   @font-face {
       font-family: $family;
